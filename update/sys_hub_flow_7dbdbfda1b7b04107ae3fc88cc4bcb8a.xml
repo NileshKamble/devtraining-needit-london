@@ -11,7 +11,7 @@
         <description>Steps to approve and fulfill NeedIt requests.</description>
         <internal_name>needit_fulfillment</internal_name>
         <label_cache>[{"name":"735b0399-37ce-4fe3-9787-701bf1b75bd8.table_name","label":"3.1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt Table","type":"table_name","base_type":"table_name"},{"name":"735b0399-37ce-4fe3-9787-701bf1b75bd8.record","label":"3.1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt Record","type":"reference","base_type":"reference"},{"name":"e864b541-4f9e-459c-866b-516ef309905a.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"e864b541-4f9e-459c-866b-516ef309905a.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"faf88bce-9a2d-44bf-8f4d-9f5d82eb3514.record","label":"1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"},{"name":"faf88bce-9a2d-44bf-8f4d-9f5d82eb3514.table_name","label":"1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"table_name","base_type":"table_name"},{"name":"Created_1.current","label":"Trigger➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"},{"name":"aef6a4c3-d245-4b17-8499-74dab6a9ece3.record","label":"1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt Record","type":"reference","base_type":"reference"},{"name":"aef6a4c3-d245-4b17-8499-74dab6a9ece3.table_name","label":"1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt Table","type":"table_name","base_type":"table_name"},{"name":"56271d48-ffe1-49c4-8ebf-a67b781e3d5a.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"Created_1.current.u_requested_for.manager","label":"Trigger➛NeedIt Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Created_1.current.approval","label":"Trigger➛NeedIt Record➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"x_58872_needit_needit","column_name":"approval"},{"name":"5eef4dbb-184b-4c46-83c8-8983157fadeb.record","label":"4.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"5eef4dbb-184b-4c46-83c8-8983157fadeb.table_name","label":"4.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"}]</label_cache>
-        <latest_snapshot>a8a864661b3f04107ae3fc88cc4bcbfe</latest_snapshot>
+        <latest_snapshot>6731481d1b0010107ae3fc88cc4bcb93</latest_snapshot>
         <master_snapshot>a8a864661b3f04107ae3fc88cc4bcbfe</master_snapshot>
         <name>NeedIt Fulfillment</name>
         <outputs/>
@@ -310,10 +310,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-29 15:16:29</sys_created_on>
         <sys_id>877f3b121bbb04107ae3fc88cc4bcb65</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-30 06:38:48</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-04-07 04:27:28</sys_updated_on>
         <ui_id>aef6a4c3-d245-4b17-8499-74dab6a9ece3</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=877f3b121bbb04107ae3fc88cc4bcb65"/>
@@ -479,7 +479,7 @@
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent/>
         <comment>Get approval from Requested for's Manager</comment>
-        <compiled_snapshot/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
         <display_text/>
         <flow display_value="NeedIt Fulfillment">7dbdbfda1b7b04107ae3fc88cc4bcb8a</flow>
         <order>2</order>
@@ -488,10 +488,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-30 04:11:24</sys_created_on>
         <sys_id>d6d0b22a1b3300107ae3fc88cc4bcbfc</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-30 06:38:48</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-04-07 04:27:28</sys_updated_on>
         <ui_id>56271d48-ffe1-49c4-8ebf-a67b781e3d5a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d6d0b22a1b3300107ae3fc88cc4bcbfc"/>
@@ -1165,10 +1165,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-29 15:16:29</sys_created_on>
         <sys_id>877f3b121bbb04107ae3fc88cc4bcb65</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-30 06:38:48</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-04-07 04:27:28</sys_updated_on>
         <ui_id>aef6a4c3-d245-4b17-8499-74dab6a9ece3</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=877f3b121bbb04107ae3fc88cc4bcb65"/>
@@ -1307,7 +1307,7 @@
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent/>
         <comment>Get approval from Requested for's Manager</comment>
-        <compiled_snapshot/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
         <display_text/>
         <flow display_value="NeedIt Fulfillment">7dbdbfda1b7b04107ae3fc88cc4bcb8a</flow>
         <order>2</order>
@@ -1316,10 +1316,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-30 04:11:24</sys_created_on>
         <sys_id>d6d0b22a1b3300107ae3fc88cc4bcbfc</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-30 06:38:48</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-04-07 04:27:28</sys_updated_on>
         <ui_id>56271d48-ffe1-49c4-8ebf-a67b781e3d5a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d6d0b22a1b3300107ae3fc88cc4bcbfc"/>
@@ -1715,7 +1715,7 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"eca8a4661b3f04107ae3fc88cc4bcb28","name":"plan"}}</plan>
         <plan_id>7dbdbfda1b7b04107ae3fc88cc4bcb8a</plan_id>
-        <snapshot>a8a864661b3f04107ae3fc88cc4bcbfe</snapshot>
+        <snapshot>6731481d1b0010107ae3fc88cc4bcb93</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-29 18:16:16</sys_created_on>
         <sys_domain>global</sys_domain>
